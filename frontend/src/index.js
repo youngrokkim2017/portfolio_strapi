@@ -8,7 +8,7 @@ import './index.css';
 
 ReactDOM.render(
   <Router>
-    <ApolloProvider cliet={client}>
+    <ApolloProvider client={client}>
       <App />
     </ApolloProvider>
   </Router>,
