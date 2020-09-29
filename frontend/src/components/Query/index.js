@@ -1,5 +1,6 @@
 import React from 'react';
 import { useQuery } from "@apollo/react-hooks";
+// import { useQuery } from "react-apollo";
 
 // using useQuery too call Strapi server and send an "id" if it exists
 const Query = ({ children, query, id }) => {
