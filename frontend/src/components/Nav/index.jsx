@@ -46,3 +46,7 @@ const Nav = () => {
 }
 
 export default Nav;
+
+// Note: The current code is not suited to display a lot of categories as you 
+// may encounter a UI issue. Since this blog post is supposed to be short, you 
+// could improve the code by adding a lazy load or something like that.
