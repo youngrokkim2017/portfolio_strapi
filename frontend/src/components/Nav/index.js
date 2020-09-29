@@ -8,7 +8,7 @@ const Nav = () => {
     return (
         <div>
             <Query query={CATEGORIES_QUERY} id={null}>
-                {({data: { categories }}) => {
+                {({ data: { categories } }) => {
                     return (
                         <div>
                             <nav className="uk-navbar-container" data-uk-navbar>
